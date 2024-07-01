@@ -9,7 +9,7 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'philomathanuj/philomathanuj.github.io'
+    if: github.repository == 'mmistakes/minimal-mistakes'
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
